@@ -1,2 +1,8 @@
 Git compresses and stores full versions of the files by default
 - solution: Git sparse checkout option – choosing which parts of a repository to include in your local working directory
+-	- this is done using the following commands: 
+-	       Clone the entire repository: git clone
+-	       Enable the sparse checkout feature: git config core.sparsecheckout true
+-	       Specify which folders to include, excluding asset folders:
+-	       echo src/ > .git/info/sparse-checkout
+-	       Load the specified tree: git read-tree -m -u HEAD
