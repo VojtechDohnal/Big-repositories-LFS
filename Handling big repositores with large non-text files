@@ -3,8 +3,7 @@ Git compresses and stores full versions of the files by default
 -	- this is done using the following commands: 
 -	       Clone the entire repository: git clone
 -	       Enable the sparse checkout feature: git config core.sparsecheckout true
--	       Specify which folders to include, excluding asset folders:
--	       echo src/ > .git/info/sparse-checkout
+-	       Specify which folders to include, excluding asset folders: echo src/ > .git/info/sparse-checkout
 -	       Load the specified tree: git read-tree -m -u HEAD
 - another way: using the garbage collection git gc which turns loose objects into a single file
 - another way: using submodules - that is a repository inside another repository, where the inside repository contains the non-text files 
