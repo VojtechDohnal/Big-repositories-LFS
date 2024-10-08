@@ -8,4 +8,4 @@ Git compresses and stores full versions of the files by default
 -	       Load the specified tree: git read-tree -m -u HEAD
 - another way: using the garbage collection git gc which turns loose objects into a single file
 - another way: using submodules - that is a repository inside another repository, where the inside repository contains the non-text files 
--	Another strategy is using the Git LFS extension which is specifically designed to handle large files
+- another strategy is using the Git LFS extension which is specifically designed to handle large files
