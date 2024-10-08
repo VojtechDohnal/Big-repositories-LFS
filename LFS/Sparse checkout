@@ -1,0 +1,4 @@
+Sparse checkout
+  •	Used to clone only part of a repo when we don’t need the whole history or full project structure 
+  •	You can specify which files/directories you want to download 
+  •	Can reduce the size of the repo significantly if certain files do not need to be kept track of 
