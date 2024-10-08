@@ -1,0 +1,10 @@
+Git LFS
+  •	An extension to Git that helps with managing large files storage
+  •	Instead of downloading versions of large files during cloning or fetching, it enables the files to be downloaded during checkout process -> shortening the waiting time
+  •	How does it work?
+      o	Git LFS replaces large files with smaller pointer files 
+      o	When a large file is added, it is stored in local Git LFS cache and only the pointer is kept in the repository
+      o	Checking a commit -> the pointer files are replaced by the actual large files from the cache 
+      o	When pushing, large files are uploaded from the local cache to the remote Git LFS storage
+      o	Pulling/cloning is faster because you only need to download large files needed for the commits you work with 
+  •	It operated within Git seamlessly, usual commands are used
