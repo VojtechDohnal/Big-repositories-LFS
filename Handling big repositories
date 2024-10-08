@@ -1,5 +1,7 @@
 -	big repositories: Repositories with long history, repositories storing large non-text files
 -	 -  how to clone big repositories: with shallow clone – clones only the latest commits of the repository 
--	                                  command: git clone --depth [depth] [remote-url]
+-	                                   - command: git clone --depth [depth] [remote-url]
 -	             with git filter branch – this lets us filter out or modify some parts
--	                                   command: git filter-branch --tree-filter 'rm -rf 
+-	                                   - command: git filter-branch --tree-filter 'rm -rf [/path/to/spurious/asset/folder]'
+-	                                   - There is a negative – this rewrites the entire history of the project and changes all commit ids
+
