@@ -1,0 +1,2 @@
+Git compresses and stores full versions of the files by default
+- solution: Git sparse checkout option – choosing which parts of a repository to include in your local working directory
