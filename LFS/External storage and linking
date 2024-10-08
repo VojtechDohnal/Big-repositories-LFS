@@ -1,0 +1,3 @@
+External storage and linking 
+  •	Large files can be stored not in the Git repo but in an external system and only links can be stored in the repo
+  •	Keeps the repo small but requires additional setup to manage external file storage

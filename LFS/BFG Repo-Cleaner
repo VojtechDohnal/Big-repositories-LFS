@@ -1,0 +1,4 @@
+BFG Repo-Cleaner
+  •	Helps clean repos that have already become overflown with large files
+  •	Faster than Git´s in built cleaning tool
+  •	Strips large files, sensitive data, or unwanted objects from the Git history
