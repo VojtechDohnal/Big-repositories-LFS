@@ -1,0 +1,4 @@
+Shallow clone
+  •	Clones a repo without the full history or limited depth of commits
+  •	Reduces the amount of data transferred, local repo size, waiting time  
+  •	Initiated by the --depth option when cloning 
